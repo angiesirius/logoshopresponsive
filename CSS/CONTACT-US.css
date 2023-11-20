@@ -588,4 +588,7 @@ footer{
             .container{
                 width: 75%;
             }
+                .container .content .left-side{
+                display: none;
+            }
         }
