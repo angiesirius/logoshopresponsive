@@ -1,0 +1,415 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="IE-edge" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Website</title>
+<link rel="stylesheet" type="text/css" href="CSS/HOME.css">
+<script src="js/JQuery.js"></script>
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>  
+  </head> 
+<body>
+	<nav> 
+    <div class="navigation">
+        <a href="#" class="logo"><img src="images/logo.png"></a>
+        <div class="toggle"></div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li  class="shop"><a href="Shop.html" >Shop</a>
+             <span class="sale-lable">Sale</span>
+            </li>
+             <li><a href="ABOUTUS.html">About Us</a></li>
+            <li><a href="CONTACT-US.html">Contact Us</a></li>
+        </ul>
+        <div class="right-menu">
+            <a href="#" class="search">
+                <i class="fas fa-search"></i>
+            </a>
+            <a href="#" class="user">
+                <i class="far fa-user"></i>
+            </a>
+            <a href="#">
+                <i class="fas fa-shopping-cart">
+                    <span class="num-cart-product">0</span>
+                </i>
+            </a>
+        </div>
+        </div>
+    </nav>
+   <div class="search-bar">
+        <div class="search-input">
+        <input type="text" placeholder="Search For Product" name="search" />
+        <a href="javascript:void(0);" class="search-cancel">
+            <i class="fas fa-times"></i>
+        </a>
+    
+    </div>
+    </div>
+    <div class="form">
+        <div class="login-form">
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <strong>Log In</strong>
+            <!--inputs-->
+            <form>
+                <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                <input type="password" name="password" placeholder="Password" required/>
+                <input type="submit" value="Log In"/>
+            </form>
+            <div class="form-btns">
+                <a href="#" class="forget">Forget Your Password?</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+            </div>
+        </div>
+            <div class="sign-up-form">
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+                <strong>Sign Up</strong>
+                <form>
+                    <input type="text" name="fullname" placeholder="Full Name" required/>
+                    <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                    <input type="password" name="password" placeholder="Password" required/>
+                    <input type="submit" value="Sign Up"/>
+                </form>
+              
+                <div class="form-btns">
+                    <a href="javascript:void(0);" class="already-account">
+                        Already Have Account?</a>
+    
+                </div>
+            </div>
+    </div>
+
+   <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+        <swiper-slide>
+            <div class = "f-slide-1">
+             <div class="f-slider-text-container">
+        <div class="f-slider-text">
+            <span>Limited Offer</span>
+            <strong>30% Off<br/> With <font>Promo Code</font></strong>
+            <a href="#" class="f-slider-btn">Shop Now</a>
+        </div>
+        </div>
+        </div>      
+    </swiper-slide>
+        <swiper-slide>
+            <div class = "f-slide-2">
+             <div class="f-slider-text-container">
+        <div class="f-slider-text">
+            <span>Limited Offer</span>
+            <strong>30% Off<br/> With <font>Promo Code</font></strong>
+            <a href="#" class="f-slider-btn">Shop Now</a>
+        </div>
+        </div>
+        </div>      
+    </swiper-slide>
+        <swiper-slide>
+            <div class = "f-slide-3">
+             <div class="f-slider-text-container">
+        <div class="f-slider-text">
+            <span>Limited Offer</span>
+            <strong>30% Off<br/> With <font>Promo Code</font></strong>
+            <a href="#" class="f-slider-btn">Shop Now</a>
+        </div>
+        </div>
+        </div>      
+    </swiper-slide>
+    <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-scrollbar"></div>
+</swiper-container>
+
+    <ul id="autoWidth" class="container" class="cs-hidden">
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#">
+                        <img src="images/feature_1.jpg">
+                    </a>
+                </div>
+                <span>T-Shirts</span>
+            </li>
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#">
+                        <img src="images/feature_2.jpg">
+                    </a>
+                </div>
+                <span>Men T-Shirts</span>
+            </li>
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#">
+                        <img src="images/feature_3.jpg">
+                    </a>
+                </div>
+                <span>Kids T-Shirts</span>
+            </li>
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#">
+                        <img src="images/feature_4.jpg">
+                    </a>
+                </div>
+                <span>Pillow</span>
+            </li>
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#">
+                        <img src="images/feature_5.jpg">
+                    </a>
+                </div>
+                <span>Phone Cover</span>
+            </li>
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#">
+                        <img src="images/feature_6.jpg">
+                    </a>
+                </div>
+                <span>Shopping Bags</span>
+            </li>
+            
+          </ul>
+
+           <section class="popular-items">
+            
+            <div class="arrival-heading">
+                <strong>Popular Items</strong>
+                <p>We Provide You New Fasion Design Clothes</p>
+            </div>
+
+              <div class="product-container">
+                  
+
+                  <div class="product-box">
+
+                      <div class="product-img">
+                          <!--add-cart---->
+                          <a href="#" class="add-cart">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        <img src="images/p-1.png">
+                      </div>
+                      <div class="product-details">
+                          <a href="#" class="p-name">Design your T-Shirt (Yellow/White/Red) </a>
+                          <span class="p-price">$22.00</span>
+                      </div>
+                  </div>
+                    <div class="product-box">
+                        <div class="product-img">
+                            <!--add-cart---->
+                          <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                          <!--img------>
+                          <img src="images/black.jpg">
+                        </div>
+                        <div class="product-details">
+                            <a href="#" class="p-name">Design your T-Shirt (Black/Blue/Green)</a>
+                            <span class="p-price">$22.00</span>
+                        </div>
+                    </div>
+                  <div class="product-box">
+                    <div class="product-img">
+                        <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                      <img src="images/whitepolo.jpg">
+                    </div>
+                    <div class="product-details">
+                        <a href="#" class="p-name">Design your Polo Shirt</a>
+                        <span class="p-price">$30.00</span>
+                    </div>
+                </div>
+                  <div class="product-box">
+                    <div class="product-img">
+                        <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                      <img src="images/p-4.png">
+                    </div>
+                    <div class="product-details">
+                        <a href="#" class="p-name">Design your 
+                        Phone Case(Red/Black/Yellow/Blue)</a>
+                        <span class="p-price">$15.00</span>
+                    </div>
+                </div>
+                  <div class="product-box">
+                    <div class="product-img">
+                        <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                        <!--img------>
+                      <img src="images/blankpillow.jpg">
+                    </div>
+                    <div class="product-details">
+                        <a href="#" class="p-name">Desing your Pillow Case(All Colors Available)</a>
+                        <span class="p-price">$18.00</span>
+                    </div>
+                </div>
+              </div>
+          </section>
+
+          <section class="sale">
+              <div class="sale-box sale-1">
+                  <img src="images/sale-1.jpg">
+                  
+                  <a href="#">
+                  <div class="sale-text">
+                    <strong>Bag with rose pattern</strong>
+                    <span>Sale off 25%</span>
+                  </div></a>
+              
+                </div>
+              <div class="sale-box sale-1">
+                <img src="images/sale-2.jpg">
+                
+                <a href="#"><div class="sale-text">
+                  <strong>Hello Summer</strong>
+                  <span>Sale off 20%</span>
+                </div></a>
+            
+              </div>
+               <div class="sale-box sale-1">
+                <img src="images/sale-3.jpg">
+                
+                <a href="#">
+                <div class="sale-text">
+                  <strong>Let's Party Hard Pillow</strong>
+                  <span>Sale off 25%</span>
+                </div></a>
+            
+              </div>
+           
+          </section>
+
+<section class="feature-item">
+            
+            <div class="feature-heading">
+            <strong>New Items</strong>
+            <p>We Provide You New Fasion Design Clothes</p>
+                </div>
+              <div class="product-container">
+                  
+                  <div class="product-box">
+                      <div class="product-img">
+                          <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                        <img src="images/dakimakura.jpg">
+                      </div>
+                      <div class="product-details">
+                          <a href="#" class="p-name">Design your "Dakimakura"</a>
+                          <span class="p-price">$40.00</span>
+                      </div>
+                  </div>
+                    <div class="product-box">
+                        <div class="product-img">
+                          <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                          <img src="images/backpack.jpeg">
+                        </div>
+                         <div class="product-details">
+                            <a href="#" class="p-name">Design your Backpack (Grey/Black/Blue/Red)</a>
+                            <span class="p-price">$50.00</span>
+                        </div>
+                    </div>
+                  <div class="product-box">
+                    <div class="product-img">
+                       <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                      <img src="images/mug.jpg">
+                    </div>
+                    <div class="product-details">
+                        <a href="#" class="p-name">Design your Mug</a>
+                        <span class="p-price">$20.00</span>
+                    </div>
+                </div>            
+                    </div>
+                    </section>
+
+    <div class="banner-box f-slide-3">
+        
+        <div class="banner-text-container">
+        <div class="banner-text">
+            <span>Limited Offer</span>
+            <strong>30% Off<br/> With <font>Promo Code</font></strong>
+            <a href="#" class="banner-btn">Shop Now</a>
+        </div>
+        </div>
+    
+    </div> 
+
+    <section class="services">
+        <div class="services-box">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Free Shipping</span>
+            <p>Free Shipping for all US order</p>
+        </div>
+        <div class="services-box">
+            <i class="fas fa-headphones-alt"></i>
+            <span>Support 24/7</span>
+            <p>We support 24h a day</p>
+        </div>
+        <div class="services-box">
+            <i class="fas fa-sync"></i>
+            <span>100% Money Back</span>
+            <p>You have 30 days to Return</p>
+        </div>
+        
+    </section>
+    <footer>
+        <span class="copyright">
+            Copyright 2020 - LOGO
+        </span>
+        <div class="subscribe">
+            <span>For News Letters:</span>
+            <form>
+            <input type="email" placeholder="Example@gmail.com" required/>
+            <input type="submit" value="Subscribe">
+            </form>
+            <div class="social-call">
+                <span>Visit Us or Call Us:</span>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="phone">
+            <span>Call: +1234-56789</span>
+        </div>
+    </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript">
+   $(document).on('click','.search',function(){
+        $('.search-bar').addClass('search-bar-active')
+    });
+ 
+    $(document).on('click','.search-cancel',function(){
+        $('.search-bar').removeClass('search-bar-active')
+    });
+     $(document).on('click','.user,.already-account',function(){
+        $('.form').addClass('login-active').removeClass('sign-up-active')
+    });
+ 
+    $(document).on('click','.sign-up-btn',function(){
+        $('.form').addClass('sign-up-active').removeClass('login-active')
+    });
+ 
+    $(document).on('click','.form-cancel',function(){
+        $('.form').removeClass('login-active').removeClass('sign-up-active')
+    });
+
+        $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('.navigation').toggleClass('active')
+        })
+    });
+
+    </script>
+ <label>FOR SCHOOL PURPOSES</label>   
+</body>	
+		
+</html>

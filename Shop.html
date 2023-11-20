@@ -1,0 +1,394 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="IE-edge" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Website</title>
+<link rel="stylesheet" type="text/css" href="CSS/Shop.css">
+<script src="js/JQuery.js"></script>
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>  
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  </head> 
+<body>
+    <nav> 
+    <div class="navigation">
+        <a href="#" class="logo"><img src="images/logo.png"></a>
+        <div class="toggle"></div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li  class="shop"><a href="Shop.html" >Shop</a>
+            <span class="sale-lable">Sale</span>
+
+            </li>
+            <li><a href="ABOUTUS.html">About Us</a>
+            </li>
+            <li><a href="CONTACT-US.html">Contact Us</a></li>
+        </ul>
+        <div class="right-menu">
+            <a href="#" class="search">
+                <i class="fas fa-search"></i>
+            </a>
+            <a href="#" class="user">
+                <i class="far fa-user"></i>
+            </a>
+            <a href="#">
+                <i class="fas fa-shopping-cart">
+                    <span class="num-cart-product">20</span>
+                </i>
+            </a>
+        </div>
+        </div>
+    </nav>
+   <div class="search-bar">
+        <div class="search-input">
+        <input type="text" placeholder="Search For Product" name="search" />
+        <a href="javascript:void(0);" class="search-cancel">
+            <i class="fas fa-times"></i>
+        </a>
+    
+    </div>
+    </div>
+    <div class="form">
+        <!--login---------->
+        <div class="login-form">
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+            <strong>Log In</strong>
+            <!--inputs-->
+            <form>
+                <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                <input type="password" name="password" placeholder="Password" required/>
+                <input type="submit" value="Log In"/>
+            </form>
+            <div class="form-btns">
+                <a href="#" class="forget">Forget Your Password?</a>
+                <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+            </div>
+        </div>
+           <div class="sign-up-form">
+            <a href="javascript:void(0);" class="form-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+                <strong>Sign Up</strong>
+                <!--inputs-->
+                <form>
+                    <input type="text" name="fullname" placeholder="Full Name" required/>
+                    <input type="email" name="email" placeholder="Example@gmail.com" required/>
+                    <input type="password" name="password" placeholder="Password" required/>
+                    <input type="submit" value="Sign Up"/>
+                </form>
+              
+                <div class="form-btns">
+                    <a href="javascript:void(0);" class="already-account">
+                        Already Have Account?</a>
+    
+                </div>
+            </div>
+    </div>
+
+<ul id="autoWidth" class="container" class="cs-hidden">
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#">
+                        <img src="images/feature_1.jpg">
+                    </a>
+                </div>
+                <span>T-Shirts</span>
+            </li>
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#">
+                        <img src="images/feature_2.jpg">
+                    </a>
+                </div>
+                <span>Men T-Shirts</span>
+            </li>
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#">
+                        <img src="images/feature_3.jpg">
+                    </a>
+                </div>
+                <span>Kids T-Shirts</span>
+            </li>
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#">
+                        <img src="images/feature_4.jpg">
+                    </a>
+                </div>
+                <span>Pillow</span>
+            </li>
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#">
+                        <img src="images/feature_5.jpg">
+                    </a>
+                </div>
+                <span>Phone Cover</span>
+            </li>
+            <li class="item">
+                <div class="feature-box">
+                    <a href="#">
+                        <img src="images/feature_6.jpg">
+                    </a>
+                </div>
+                <span>Shopping Bags</span>
+            </li>
+            
+          </ul>
+
+<section class="feature-item">
+            
+            <div class="feature-heading">
+            <strong>SALE PROMO</strong>
+            <p>We Provide You New Fasion Design Clothes ON-SALE</p>
+             </div>
+             <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class ="feature-1">
+        <div class="swiper-slide container">
+           <div class="sale-product-details">
+        <a href="#" class="s-name">Design your For him and For Her T-Shirts</a>
+        <span class="s-price">&nbsp;&nbsp;$40.00&nbsp;&nbsp;<strike>$70.00</strike></span>
+        </div>
+      </div>
+    </div>
+</div>
+      <div class="swiper-slide">
+       <div class ="feature-2">
+        <div class="swiper-slide container">
+           <div class="sale-product-details">
+        <a href="#" class="s-name">Design your For Family T-Shirts</a>
+        <span class="s-price">$200.00&nbsp;&nbsp;<strike>$400.00</strike></span>
+        </div>
+      </div>
+    </div>
+      </div>
+      <div class="swiper-slide">
+       <div class ="feature-3">
+        <div class="swiper-slide container">
+           <div class="sale-product-details">
+        <a href="#" class="s-name">Design your Baseball Cap</a>
+        <span class="s-price">$40.00&nbsp;&nbsp;<strike>$60.00</strike></span>
+        </div>
+      </div>
+    </div>
+      </div>
+      <div class="swiper-slide">
+        <div class ="feature-4">
+        <div class="swiper-slide container">
+           <div class="sale-product-details">
+        <a href="#" class="s-name">Design your Waterbottle</a>
+        <span class="s-price">¢7.00&nbsp;&nbsp;<strike>$1.00</strike>&nbsp;Per Dozen</span>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div class="swiper-slide">
+        <div class ="feature-5">
+        <div class="swiper-slide container">
+           <div class="sale-product-details">
+        <a href="#" class="s-name">Design your Ceramic Plate</a>
+        <span class="s-price">$5.00&nbsp;&nbsp;<strike>$10.00</strike></span>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div class="swiper-slide">
+        <div class ="feature-6">
+        <div class="swiper-slide container">
+           <div class="sale-product-details">
+        <a href="#" class="s-name">Design your Souvenir Pin</a>
+        <span class="s-price">$1.00&nbsp;&nbsp;<strike>$2.00</strike></span>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div class="swiper-slide">
+         <div class ="feature-7">
+        <div class="swiper-slide container">
+           <div class="sale-product-details">
+        <a href="#" class="s-name">Design your Notebook</a>
+        <span class="s-price">$4.50&nbsp;&nbsp;<strike>$5.00</strike></span>
+        </div>
+        </div>
+      </div>
+  </div>
+      <div class="swiper-slide">
+        <div class ="feature-8">
+        <div class="swiper-slide container">
+           <div class="sale-product-details">
+        <a href="#" class="s-name">Design your Shopping Bag</a>
+        <span class="s-price">$4.50&nbsp;&nbsp;<strike>$5.00</strike></span>
+        </div>
+        </div>
+      </div>
+  </div>
+      </div>
+       <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</swiper-container>
+</section>
+
+           <section class="popular-items">
+            
+            <div class="arrival-heading">
+                <strong>Popular Items</strong>
+                <p>We Provide You New Fasion Design Clothes</p>
+            </div>
+
+              <div class="product-container">
+                  
+
+                  <div class="product-box">
+
+                      <div class="product-img">
+                          <!--add-cart---->
+                          <a href="#" class="add-cart">
+                              <i class="fas fa-shopping-cart"></i>
+                            </a>
+                        <img src="images/p-1.png">
+                      </div>
+                      <div class="product-details">
+                          <a href="#" class="p-name">Design your T-Shirt (Yellow/White/Red) </a>
+                          <span class="p-price">$22.00</span>
+                      </div>
+                  </div>
+                    <div class="product-box">
+                        <div class="product-img">
+                            <!--add-cart---->
+                          <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                          <!--img------>
+                          <img src="images/black.jpg">
+                        </div>
+                        <div class="product-details">
+                            <a href="#" class="p-name">Design your T-Shirt (Black/Blue/Green)</a>
+                            <span class="p-price">$22.00</span>
+                        </div>
+                    </div>
+                  <div class="product-box">
+                    <div class="product-img">
+                        <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                      <img src="images/whitepolo.jpg">
+                    </div>
+                    <div class="product-details">
+                        <a href="#" class="p-name">Design your Polo Shirt</a>
+                        <span class="p-price">$30.00</span>
+                    </div>
+                </div>
+                  <div class="product-box">
+                    <div class="product-img">
+                        <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                      <img src="images/p-4.png">
+                    </div>
+                    <div class="product-details">
+                        <a href="#" class="p-name">Design your 
+                        Phone Case(Red/Black/Yellow/Blue)</a>
+                        <span class="p-price">$15.00</span>
+                    </div>
+                </div>
+                  <div class="product-box">
+                    <div class="product-img">
+                        <a href="#" class="add-cart"><i class="fas fa-shopping-cart"></i></a>
+                      <img src="images/blankpillow.jpg">
+                    </div>
+                    <div class="product-details">
+                        <a href="#" class="p-name">Desing your Pillow Case(All Colors Available)</a>
+                        <span class="p-price">$18.00</span>
+                    </div>
+                </div>
+              </div>
+          </section>
+
+
+<div class="banner-box f-slide-3">
+        
+        <div class="banner-text-container">
+        <div class="banner-text">
+            <span>Limited Offer</span>
+            <strong>30% Off<br/> With <font>Promo Code</font></strong>
+            <a href="#" class="banner-btn">Shop Now</a>
+        </div>
+        </div>
+</div>
+    <footer>
+        <span class="copyright">
+            Copyright 2020 - LOGO
+        </span>
+        <div class="subscribe">
+            <span>For News Letters:</span>
+            <form>
+            <input type="email" placeholder="Example@gmail.com" required/>
+            <input type="submit" value="Subscribe">
+            </form>
+            <div class="social-call">
+                <span>Visit Us or Call Us:</span>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="phone">
+            <span>Call: +1234-56789</span>
+        </div>
+    </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript">
+   $(document).on('click','.search',function(){
+        $('.search-bar').addClass('search-bar-active')
+    });
+ 
+    $(document).on('click','.search-cancel',function(){
+        $('.search-bar').removeClass('search-bar-active')
+    });
+     $(document).on('click','.user,.already-account',function(){
+        $('.form').addClass('login-active').removeClass('sign-up-active')
+    });
+ 
+    $(document).on('click','.sign-up-btn',function(){
+        $('.form').addClass('sign-up-active').removeClass('login-active')
+    });
+ 
+    $(document).on('click','.form-cancel',function(){
+        $('.form').removeClass('login-active').removeClass('sign-up-active')
+    });
+
+        $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('.navigation').toggleClass('active')
+        })
+    });
+         var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+</script>
+<label>FOR SCHOOL PURPOSES</label>
+</body> 
+        
+</html>
